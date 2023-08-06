@@ -1,7 +1,7 @@
-export default function FisrtPage() {
+export default function SecondPage() {
   return (
     <div className="m-10 text-center">
-      <p>Page 1</p>
+      <p>Page 2</p>
     </div>
   )
 }
