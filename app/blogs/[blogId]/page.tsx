@@ -23,6 +23,9 @@ async function fetchBlog(blogId: string) {
       cache: 'force-cache',
     }
   )
+  //   if (!res.ok) {
+  //     throw new Error('Failed to fetch data in server')
+  //   }
   const blogs: Blog[] = await res.json()
   return blogs[0]
 }
