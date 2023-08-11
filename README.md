@@ -4,7 +4,6 @@ https://www.udemy.com/course/nextjs-supabase-app-directory/
 使用技術
 Next.js v13.4.1
 [supabase](https://supabase.com/)
-REST API v2
 
 ローカル環境での動かし方(npm導入前提)
 ```
